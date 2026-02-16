@@ -1,69 +1,39 @@
 version: 1
 extends:
 - https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/climatematch-2023.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
+  doi: 10.5281/zenodo.12192494
+  date: 2024-06-20
   authors:
-  - name: Doe, J.
-    orcid: 0000-0000-0000-0001
+  - name: James Hartzell
+    orcid: 0000-0003-1901-7016
+  - name: Magda Altman
+    orcid: 0009-0002-0976-6427
+  - name: Dr. Rajiv Kumar Srivastava
     affiliations:
-    - Department of Geosciences and Natural Resource Management, University of Copenhagen, Denmark
-    roles:
-    - Conceptualization
-    - Formal analysis
-    - Investigation
-    - Methodology
-    - Software
-    - Visualization
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Sharma, A.J.
-    orcid: 0000-0000-0000-0002
+    - University of Hohenheim
+    orcid: 0000-0002-5314-7634
+  - name: Pratik Bhandari
+    orcid: 0000-0001-5486-3352
+  - name: Jeffrey N. A. Aryee
     affiliations:
-    - Department of Earth Sciences, Indian Institute of Technology Bombay, Mumbai, India
-    roles:
-    - Formal analysis
-    - Investigation
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Tanaka, S.
-    affiliations:
-    - College of Urban and Environmental Sciences, Peking University, Beijing, China
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Vera Gutierrez, C.
-    affiliations:
-    - Institute of Geology, Mining, and Metallurgy, Universidad Nacional Mayor de San Marcos, Lima, Peru
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Ndlovu, T.
-    affiliations:
-    - Marine Research and Development, Oceanic Dynamics Ltd., Cape Town, South Africa
-    roles:
-    - Formal analysis
-    - Writing - review & editing
+    - Kwame Nkrumah University of Science and Technology
+    orcid: 0000-0002-4481-1441
 
   toc:
   - file: index.md
 
-  id: isp-micropublication-template
-  title: This is the title of our awesome micropublication
+  id: oceanic-oscillations-and-congo-river-basin-climatology
+  title: Oceanic Oscillations and Congo River Basin Climatology
   keywords:
-  - keyword1
-  - keyword2
-  - keyword3
-  - keyword4
-  github: https://github.com/Open-Scholar-Nexus/isp-micropublication-template
+  - Tides
+  - Congo
+  - Climate Change
+  github: https://github.com/Open-Scholar-Nexus/hartzell-2023-oceanic-oscillations-congo
   bibliography:
   - bib.bib
-  # downloads:
-  # - file: supplementary-material.zip
-  #   title: Supplementary Material
+  downloads:
+  - file: assets/Fortepiano, Hesperosaurus_bon.CSIP.zip
+    title: Code
